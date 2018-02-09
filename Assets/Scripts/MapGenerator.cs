@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿// NOTE: THIS SCRIPT WAS NOT WRITTEN BY ME BUT BY SEBASTION LAGUE 
+// https://www.youtube.com/channel/UCmtyQOKKmrMVaKuRXz02jbQ
+using System.Collections;
 using UnityEngine;
 using System;
 using System.Collections.Generic;
