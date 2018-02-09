@@ -13,13 +13,6 @@ public class LevelManager : MonoBehaviour
     void Start()
     {
         areas = CreateAreasFromAreaTypes();
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
     Area SpawnArea(Vector2 Coord, AreaType areaType, Vector2 position)
@@ -107,7 +100,6 @@ public class LevelManager : MonoBehaviour
                         case Direction.East:
                             teleporter.SetDestination(areas[i - 1, j].areaTeleporters[(int)Direction.West]);
                             break;
-
                     }
                 }
             }

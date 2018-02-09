@@ -11,12 +11,8 @@ public class AreaTeleporter : MonoBehaviour {
     public Area currentArea;
     public bool isUsable;
 
-    public AreaTeleporter(Direction direction, Area currentArea)
+    public AreaTeleporter()
     {
-        this.isUsable = true;
-        this.direction = direction;
-        this.currentArea = currentArea;
-
     }
     public void Set(Direction direction, Area currentArea)
     {
@@ -51,8 +47,7 @@ public class AreaTeleporter : MonoBehaviour {
                 break;
         }
         other.transform.position = newPosition;
-        
-        //Set current area of teleported object to current object of teleporter
+        //Set Object Area to this area (allows for tracking and following :))
     }
     void OnTriggerExit()
     {
