@@ -11,10 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: Forest
   m_EditorClassIdentifier: Assembly-CSharp::AreaType
-  name: 466f72657374
-  floorColor:
-    r: 0
-    g: 0.353
-    b: 0
-    a: 0
-  border: {fileID: 1080063641782718, guid: acd62019252f8d54bac443fa5e05aec5, type: 2}
+  name: Forest
+  floorColor: {r: 0, g: 0.353, b: 0, a: 0}
+  isAccessible: 1

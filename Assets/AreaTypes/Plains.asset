@@ -11,10 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: Plains
   m_EditorClassIdentifier: Assembly-CSharp::AreaType
-  name: 506c61696e73
-  floorColor:
-    r: 0
-    g: 0.9264706
-    b: 0.19807296
-    a: 0
-  border: {fileID: 1080063641782718, guid: acd62019252f8d54bac443fa5e05aec5, type: 2}
+  name: Plains
+  floorColor: {r: 0, g: 0.9264706, b: 0.19807296, a: 0}
+  isAccessible: 1

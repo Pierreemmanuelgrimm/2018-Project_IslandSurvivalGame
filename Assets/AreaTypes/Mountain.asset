@@ -11,10 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: Mountain
   m_EditorClassIdentifier: Assembly-CSharp::AreaType
-  name: 4d6f756e7461696e
-  floorColor:
-    r: 0.5808823
-    g: 0.39660236
-    b: 0
-    a: 0
-  border: {fileID: 1080063641782718, guid: acd62019252f8d54bac443fa5e05aec5, type: 2}
+  name: Moutain
+  floorColor: {r: 0.5808823, g: 0.39660236, b: 0, a: 0}
+  isAccessible: 1

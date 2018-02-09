@@ -11,10 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: DefaultAreaType
   m_EditorClassIdentifier: Assembly-CSharp::AreaType
-  name: 44656661756c74
-  floorColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
-  border: {fileID: 1080063641782718, guid: acd62019252f8d54bac443fa5e05aec5, type: 2}
+  name: DefaultAreaType
+  floorColor: {r: 0, g: 0, b: 0, a: 0}
+  isAccessible: 1

@@ -11,10 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: Beach
   m_EditorClassIdentifier: Assembly-CSharp::AreaType
-  name: 4265616368
-  floorColor:
-    r: 0.8768763
-    g: 0.9705882
-    b: 0
-    a: 0
-  border: {fileID: 1080063641782718, guid: acd62019252f8d54bac443fa5e05aec5, type: 2}
+  name: Beach
+  floorColor: {r: 0.8768763, g: 0.9705882, b: 0, a: 0}
+  isAccessible: 1

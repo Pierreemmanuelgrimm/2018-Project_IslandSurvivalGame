@@ -11,10 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: Shallow Water
   m_EditorClassIdentifier: Assembly-CSharp::AreaType
-  name: 5368616c6c6f77205761746572
-  floorColor:
-    r: 0
-    g: 0.669777
-    b: 0.7647059
-    a: 0
-  border: {fileID: 1080063641782718, guid: acd62019252f8d54bac443fa5e05aec5, type: 2}
+  name: Shallow Water
+  floorColor: {r: 0, g: 0.669777, b: 0.7647059, a: 0}
+  isAccessible: 0
